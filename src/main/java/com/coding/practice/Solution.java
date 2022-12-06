@@ -7,8 +7,7 @@ public class Solution {
     static long TIME_START, TIME_END;
     public static void main(String[] args) {
 
-        //Day day = new Day1();
-        Day day = new Day2();
+        Day day = new Day5();//1, 2, 3, 4...
         day.readInput();
         Runtime runtime = Runtime.getRuntime();
         long usedMemoryBefore = runtime.totalMemory() - runtime.freeMemory();
